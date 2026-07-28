@@ -1,5 +1,3 @@
 output "vpc_name" {
-
-  value = google_compute_network.vpc.name
-
+  value = google_compute_network.custom_vpc.name
 }

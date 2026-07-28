@@ -14,3 +14,15 @@ variable "vpc_name" {
   type        = string
   default     = "terraform-vpc"
 }
+
+variable "routing_mode" {
+  description = "VPC routing mode"
+  type        = string
+  default     = "REGIONAL"
+}
+
+variable "mtu" {
+  description = "VPC network MTU"
+  type        = number
+  default     = 1460
+}
